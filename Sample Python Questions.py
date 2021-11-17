@@ -27,3 +27,13 @@ def minion_game(string):
         print('Stuart', st_sc)
     else:
         print('Draw')
+
+ # Q3 - Integer division vs float division
+a = 3
+b = 5
+print(a//b)  # integer division
+# prints 0
+print(a/b)   # float division
+# prints 0.6
+
+# Q4 
