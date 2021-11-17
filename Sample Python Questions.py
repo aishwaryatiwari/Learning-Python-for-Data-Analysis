@@ -36,4 +36,15 @@ print(a//b)  # integer division
 print(a/b)   # float division
 # prints 0.6
 
-# Q4 
+# Q4 - Find the number of occurances of a substring in a string. 
+# 'cdc' in 'abcdcdc' should return 2
+
+def count_substring(string, sub_string):
+    counter = 0    
+    for i in range(len(string) - len(sub_string) + 1):
+        if sub_string == string[i: i+len(sub_string)]:
+            counter += 1
+
+    return counter
+
+# Q5 - 
